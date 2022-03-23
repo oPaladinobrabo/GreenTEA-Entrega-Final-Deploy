@@ -2,22 +2,17 @@ import React from "react";
 
 const Details = () => {
   return (
-    <div>
+    <div class="container">
       <h1>Details</h1>
+
       <div>
-        <h4>CardTable</h4>
+        <h4>Categoria</h4>
         <hr />
         <dl class="row">
-          <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Img)</dt>
-          <dd class="col-sm-10">@Html.DisplayFor(model => model.Img)</dd>
           <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Nome)</dt>
           <dd class="col-sm-10">@Html.DisplayFor(model => model.Nome)</dd>
-          <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Categoria)
-          </dt>
-          <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Categoria.Cor)
-          </dd>
+          <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Cor)</dt>
+          <dd class="col-sm-10">@Html.DisplayFor(model => model.Cor)</dd>
         </dl>
       </div>
       <div>

@@ -1,14 +1,12 @@
 import React from 'react';
 
-import {NavLink,Link} from "react-router-dom";
-
 
 const Footer = () => {
     return ( 
         <footer className="d-flex footer-dark justify-content-center align-content-center p-0">
         <div className="container p-3">
             <div className="footer-copyright">
-                <a className=" text-decoration-none">
+                <a className=" text-decoration-none" asp-area="" asp-controller="Home" asp-action="Index">
                     <div>
                         <p style={{fontSize: '24' }} className="d-flex justify-content-center mb-0">
                             <span style={{color: "#198754"}}>green</span>
@@ -27,9 +25,9 @@ const Footer = () => {
                 <div className="col-sm-3 col-4">
                     <h5>Serviços</h5>
                     <ul>
-                        <li><a href="./Pages/Pictogramas/Pictogramas">Pictogramas</a></li>
-                        <li><a href="./Pages/Home/WhiteNoise">White-Noise</a></li>
-                        <li><a href="./Pages/Home/Blog">Blog</a></li>
+                        <li><a asp-controller="CardTables" asp-action="Index">Pictogramas</a></li>
+                        <li><a asp-controller="Home" asp-action="Wnoise">White-Noise</a></li>
+                        <li><a asp-controller="Home" asp-action="Blog">Blog</a></li>
                     </ul>
                 </div>
                 <div className="col-sm-3 col-4">
