@@ -19,6 +19,9 @@ import ReceitaDelete from "../Pages/Receitas/ReceitaDelete";
 import Categorias from "../Pages/Categorias/Categorias";
 import CategoriaForm from "../Pages/Categorias/CategoriaForm";
 import CategoriaDelete from "../Pages/Categorias/CategoriaDelete";
+import './Navi.css'
+import './gradient.css'
+
 
 import Logo from "../../assets/media/greenTea2.png"
 

@@ -1,6 +1,7 @@
 import { Component, useState } from 'react'
 import Rotas from './Pages/Rotas';
 import Api from './Services/Api';
+import './styles.css'
 
 
 class App extends Component {
