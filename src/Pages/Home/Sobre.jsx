@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 const Sobre = () => {
 	useEffect(() => {
 		const script = document.createElement('script')
-		script.src = '/src/wwwroot/lib/bootstrap/dist/js/Animated-Type-Heading.js'
+		script.src = 'assets/js/Animated-Type-Heading.js'
 		script.async = true
 		document.body.appendChild(script)
 		return () => {

@@ -2,16 +2,16 @@ import React from 'react'
 import { useEffect } from 'react'
 
 const Faq = () => {
+
 	useEffect(() => {
 		const script = document.createElement('script')
-		script.src = '/src/wwwroot/lib/bootstrap/dist/js/Faq-by-pomdre.js'
+		script.src = 'assets/js/Faq-by-pomdre.js'
 		script.async = true
 		document.body.appendChild(script)
 		return () => {
 			document.body.removeChild(script)
 		}
 	}, [])
-
 	return (
 		<div>
 			<div className="position-relative">

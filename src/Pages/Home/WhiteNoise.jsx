@@ -35,7 +35,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Chuva.mp3"
+											src="assets/whiteNoises/Chuva.mp3"
 											controls
 											loop
 										/>
@@ -56,7 +56,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Cascata.mp3"
+											src="assets/whiteNoises/Cascata.mp3"
 											controls
 											loop
 										/>
@@ -77,7 +77,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Mar.mp3"
+											src="assets/whiteNoises/Mar.mp3"
 											controls
 											loop
 										/>
@@ -98,7 +98,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Chuveiro.mp3"
+											src="assets/whiteNoises/Chuveiro.mp3"
 											controls
 											loop
 										/>
@@ -118,7 +118,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Ulterino.mp3"
+											src="assets/whiteNoises/Ulterino.mp3"
 											controls
 											loop
 										/>
@@ -139,7 +139,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Carro.mp3"
+											src="assets/whiteNoises/Carro.mp3"
 											controls
 											loop
 										/>
@@ -159,7 +159,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Aquecedor.mp3"
+											src="assets/whiteNoises/Aquecedor.mp3"
 											controls
 											loop
 										/>
@@ -180,7 +180,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Aspirador.mp3"
+											src="assets/whiteNoises/Aspirador.mp3"
 											controls
 											loop
 										/>
@@ -201,7 +201,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Secador.mp3"
+											src="assets/whiteNoises/Secador.mp3"
 											controls
 											loop
 										/>
@@ -222,7 +222,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Ventilador.mp3"
+											src="assets/whiteNoises/Ventilador.mp3"
 											controls
 											loop
 										/>
@@ -243,7 +243,7 @@ const WhiteNoise = () => {
 										</label>
 										<Audio
 											style={{ maxWidth: 170, marginLeft: '14px' }}
-											src="./src/assets/whiteNoises/Nebulizador.mp3"
+											src="assets/whiteNoises/Nebulizador.mp3"
 											controls
 											loop
 										/>
