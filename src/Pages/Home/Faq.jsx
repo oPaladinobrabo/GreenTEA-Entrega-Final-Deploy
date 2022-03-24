@@ -1,8 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react'
+import 'assets/css/Faq.css'
 
 const Faq = () => {
-
 	useEffect(() => {
 		const script = document.createElement('script')
 		script.src = 'assets/js/Faq-by-pomdre.js'
@@ -17,7 +17,7 @@ const Faq = () => {
 			<div className="position-relative">
 				<img
 					style={{ filter: 'opacity(50%)' }}
-					src="./src/assets/media/puzzles.jpeg"
+					src="assets/media/puzzles.jpeg"
 				/>
 			</div>
 			<main className="page landing-page ">
