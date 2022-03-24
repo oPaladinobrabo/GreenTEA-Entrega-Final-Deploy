@@ -3,7 +3,6 @@ import Rotas from './Pages/Rotas';
 import Api from './Services/Api';
 
 
-
 class App extends Component {
 state = {destinos : [],}
 async componentDidMount(){
