@@ -26,14 +26,14 @@ import './gradient.css'
 import Logo from "../../assets/media/greenTea2.png"
 
 import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  NavLink,
-} from "react-router-dom";
+	BrowserRouter as Router,
+	Route,
+	Routes,
+	NavLink as a
+} from 'react-router-dom'
 
 const Header = () => {
-  return (
+	return (
 		<Router>
 			<div
 				className="container p-0 d-inline-flex justify-content-center row flex-nowrap bg-white"
@@ -82,9 +82,9 @@ const Header = () => {
 						>
 							<ul className="navbar-nav">
 								<li className="nav-item" data-bss-hover-animate="pulse">
-									<NavLink
+									<a
 										exact="true"
-										to="/"
+										href="http://www.greentea.somee.com/"
 										className="nav-link shadow-lg rounded-pill "
 										style={{
 											color: '#fff',
@@ -94,11 +94,11 @@ const Header = () => {
 										}}
 									>
 										HOME
-									</NavLink>
+									</a>
 								</li>
 								<li className="nav-item" data-bss-hover-animate="pulse">
-									<NavLink
-										to="/pictogramas"
+									<a
+										href="http://www.greentea.somee.com/CardTables"
 										className="nav-link shadow-lg rounded-pill"
 										style={{
 											color: '#fff',
@@ -108,11 +108,11 @@ const Header = () => {
 										}}
 									>
 										PICTOGRAMA
-									</NavLink>
+									</a>
 								</li>
 								<li className="nav-item" data-bss-hover-animate="pulse">
-									<NavLink
-										to="/whitenoises"
+									<a
+										href="http://www.greentea.somee.com/Home/Wnoise"
 										className="nav-link shadow-lg rounded-pill text-nowrap"
 										style={{
 											color: '#fff',
@@ -122,11 +122,11 @@ const Header = () => {
 										}}
 									>
 										White Noise
-									</NavLink>
+									</a>
 								</li>
 								<li className="nav-item" data-bss-hover-animate="pulse">
-									<NavLink
-										to="/receitas"
+									<a
+										href="http://www.greentea.somee.com/Receitas"
 										className="nav-link shadow-lg rounded-pill"
 										style={{
 											color: '#fff',
@@ -136,11 +136,11 @@ const Header = () => {
 										}}
 									>
 										RECEITAS
-									</NavLink>
+									</a>
 								</li>
 								<li className="nav-item" data-bss-hover-animate="pulse">
-									<NavLink
-										to="/blog"
+									<a
+										href="http://www.greentea.somee.com/Home/Blog"
 										className="nav-link shadow-lg rounded-pill"
 										style={{
 											color: '#fff',
@@ -150,11 +150,11 @@ const Header = () => {
 										}}
 									>
 										BLOG
-									</NavLink>
+									</a>
 								</li>
 								<li className="nav-item" data-bss-hover-animate="pulse">
-									<NavLink
-										to="/sobre"
+									<a
+										href="http://www.greentea.somee.com/Home/Sobre"
 										className="nav-link shadow-lg rounded-pill"
 										style={{
 											color: '#fff',
@@ -164,7 +164,7 @@ const Header = () => {
 										}}
 									>
 										SOBRE
-									</NavLink>
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -199,6 +199,6 @@ const Header = () => {
 			</Routes>
 		</Router>
 	)
-};
+}
 
 export default Header;
