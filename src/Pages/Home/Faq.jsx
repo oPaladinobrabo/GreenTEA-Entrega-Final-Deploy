@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../assets/css/Faq-by-pomdre.css'
 import { useEffect } from 'react'
 
 const Faq = () => {
@@ -11,7 +12,6 @@ const Faq = () => {
 			document.body.removeChild(script)
 		}
 	}, [])
-
 	return (
 		<div>
 			<div className="position-relative">

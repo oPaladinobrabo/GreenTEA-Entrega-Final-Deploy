@@ -43,7 +43,7 @@ const Header = () => {
 				</div>
 				<div className="ml-4 col-2 col-sm-1">
 					<button className="btn linearGradiente nav-link shadow-lg rounded-pill text-white">
-						teste
+						Login
 					</button>
 				</div>
 			</div>

@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import Audio from 'react-audio-player'
 
+
 const WhiteNoise = () => {
 	return (
 		<div>
