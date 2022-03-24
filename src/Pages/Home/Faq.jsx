@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react'
-import 'assets/css/Faq.css'
+
+
+
 
 const Faq = () => {
 	useEffect(() => {
