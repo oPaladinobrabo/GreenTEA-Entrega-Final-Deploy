@@ -1,28 +1,14 @@
-import { Component, useState } from 'react'
-import Rotas from './Pages/Rotas';
-import Api from './Services/Api';
+import { React } from 'react'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 
-
-class App extends Component {
-state = {destinos : [],}
-async componentDidMount(){
-  const response = await Api.get('');
-  //console.log(response.data)
-  this.setState({destinos : response.data})
+function App() {
+	return (
+		<div>
+			<Header />
+			<Footer />
+		</div>
+	)
 }
 
-render(){
-
-  const {destinos} = this.state;
-  console.log(destinos)
-  return (
-    <div>
-      <Rotas/>
-          
-    </div>
-  )
-}
-
-}
-  
 export default App

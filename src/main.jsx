@@ -1,12 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import App from './App'
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Header />
-		<Footer />
+		<App />
 	</React.StrictMode>,
 	document.getElementById('root')
 )
