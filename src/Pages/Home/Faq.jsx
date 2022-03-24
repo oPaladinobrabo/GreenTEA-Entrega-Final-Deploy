@@ -1,20 +1,17 @@
 import React from 'react'
-var acc = document.getElementsByClassName('faq')
-var i
-
-for (i = 0; i < acc.length; i++) {
-	acc[i].addEventListener('click', function () {
-		this.classList.toggle('on')
-		var panel = this.nextElementSibling
-		if (panel.style.maxHeight) {
-			panel.style.maxHeight = null
-		} else {
-			panel.style.maxHeight = panel.scrollHeight + 'px'
-		}
-	})
-}
+import { useEffect } from 'react'
 
 const Faq = () => {
+	useEffect(() => {
+		const script = document.createElement('script')
+		script.src = '../src/assets/js/Faq-by-pomdre.js'
+		script.async = true
+		document.body.appendChild(script)
+		return () => {
+			document.body.removeChild(script)
+		}
+	}, [])
+
 	return (
 		<div>
 			<div className="position-relative">

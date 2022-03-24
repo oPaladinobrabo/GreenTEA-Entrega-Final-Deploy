@@ -191,6 +191,7 @@ const Header = () => {
 				<Route path="/receita/editar/:id" element={<ReceitaForm />} />
 				<Route path="/receita/novo" element={<ReceitaForm />} />
 				<Route path="/receita/delete/:id" element={<ReceitaDelete />} />
+				<Route path="/teste" element={<testew />} />
 				{
 					//<Route path="/categorias" element={<Categorias />} />
 					//<Route path="/categoria/editar/:id" element={<CategoriaForm />} />
